@@ -190,6 +190,8 @@ div h1 span{
   font-family: arial;
   color: #2a2f9f;
   font-weight: 400;
+  font-size: 27px;
+  border-radius: 8px;
 }
 .text-ii{
   position: absolute;
@@ -201,6 +203,8 @@ div h1 span{
   font-family: arial;
   color: #2a2f9f;
   font-weight: 400;
+  font-size: 27px;
+  border-radius: 8px;
 }
 .text-iii{
   position: absolute;
@@ -212,7 +216,8 @@ div h1 span{
   font-family: arial;
   color: #2a2f9f;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
+  border-radius: 8px;
 }
 .text-iiii{
   position: absolute;
@@ -224,7 +229,8 @@ div h1 span{
   font-family: arial;
   color: #2a2f9f;
   font-weight: 400;
-  font-size: 25px;
+  border-radius: 8px;
+  font-size: 23px;
 }
 .text-iiiii{
   position: absolute;
@@ -236,7 +242,8 @@ div h1 span{
   font-family: arial;
   color: #2a2f9f;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 23px;
+  border-radius: 8px;
 }
 .choose{
   background-image: url(./Image/choose.png);
