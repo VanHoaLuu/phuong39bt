@@ -21,14 +21,15 @@
     height: 35px;
 }   
 .a{
-  font-size: 50px;
-  font-family: sans-serif;
+  font-size: 55px;
+  font-family: system-ui;
   font-weight: 800;
 }
 .hotline{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 31px;
 }
 .img-hl{
     height: 60px;
@@ -141,7 +142,10 @@ div h1 span{
   .title{
     text-align: center;
     color: #2828a9;
-    font-size: 60px;
+    font-size: 52px;
+  }
+  .tit{
+    padding-top: 15px;
   }
 
   .img-title{
@@ -241,11 +245,13 @@ div h1 span{
 
 .span{
   font-weight: 100;
+
 }
 .h6{
   font-size: 15px;
   padding-left: 15px;
   font-family: arial;
+  line-height: 20px;
 }
 .icon{
     height: 50px;
@@ -260,8 +266,9 @@ div h1 span{
 .cnt{
   display: flex;
   background-color: #efefef;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .think{
   display: flex;
@@ -338,3 +345,10 @@ div h1 span{
 .foodter a{
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none}
+
+.sota{
+text-align: center;
+background-color: #000;
+color: white;
+padding: 10px;
+}
