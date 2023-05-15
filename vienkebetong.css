@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: #f9f9ff;
+  background-color: #ffffff;
 }
 .logo{
     height: 150px;
@@ -50,7 +50,7 @@
 div h1 span{
   font-family: arial;
   font-size: x-large;
-  color: #2828a9;
+  color: #e59c2e;
   padding-left: 15px;
 }
 .f-fb{
@@ -62,7 +62,7 @@ div h1 span{
 }
 /* ----------------------------------------------------------------------------------- */
 #menu ul {
-    background: #1F568B;
+    background: #ea8c00;
     list-style-type: none;
     text-align: center;
   }
@@ -91,7 +91,7 @@ div h1 span{
     margin: 2em;
     padding: 0.2em 0.6em;
     cursor: pointer;
-    color: #2c2ca1;
+    color: #000000;
     font-size: 2.5em;
     max-width: 26em;
     font-weight: 700;
@@ -159,7 +159,7 @@ div h1 span{
 
   .title{
     text-align: center;
-    color: #2828a9;
+    color: #df8600;
     font-size: 52px;
   }
   .tit{
@@ -206,7 +206,7 @@ div h1 span{
   padding: 15px;
   text-align: center;
   font-family: arial;
-  color: #2a2f9f;
+  color: #000000;
   font-weight: 400;
   font-size: 27px;
   border-radius: 8px;
@@ -219,7 +219,7 @@ div h1 span{
   margin-left: 30px;
   text-align: center;
   font-family: arial;
-  color: #2a2f9f;
+  color: #000000;
   font-weight: 400;
   font-size: 27px;
   border-radius: 8px;
@@ -232,7 +232,7 @@ div h1 span{
   margin-left: 30px;
   text-align: center;
   font-family: arial;
-  color: #2a2f9f;
+  color: #000000;
   font-weight: 400;
   font-size: 23px;
   border-radius: 8px;
@@ -245,7 +245,7 @@ div h1 span{
   margin-left: 30px;
   text-align: center;
   font-family: arial;
-  color: #2a2f9f;
+  color: #000000;
   font-weight: 400;
   border-radius: 8px;
   font-size: 23px;
@@ -258,11 +258,39 @@ div h1 span{
   margin-left: 30px;
   text-align: center;
   font-family: arial;
-  color: #2a2f9f;
+  color: #000000;
   font-weight: 400;
   font-size: 23px;
   border-radius: 8px;
 }
+
+.tell{
+  font-size: large;
+  font-weight: 100;
+}
+.h2-tell{
+  background: #ffffff;
+  border-radius: 15px;
+  border: 2px solid #d3d3d3;
+  width: 530px;
+  padding: 35px;
+  font-family: arial;
+}
+.tell-img{
+  height: 350px;
+  border-radius: 8px;
+}
+.gioithieu{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(./Image/bgr.png);
+  /* opacity: 0.5;  filter: alpha(opacity=50); */
+}
+
+
 .choose{
   background-image: url(./Image/choose.png);
   padding-bottom: 50px;
@@ -350,6 +378,31 @@ div h1 span{
   align-items: center;
 }
 
+
+.duan{
+  height: 200px;
+  width: 300px;
+  border-radius: 8px;
+}
+.duan-h2{
+  font-size: 17px;
+  font-weight: 600;
+  font-family: arial;
+}
+.duan-sp{
+  font-family: arial;
+  font-size: 15px;
+}
+.fex-duan1{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.fex-duan{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
 /* --------------- */
 .foodter{
   display: grid;
@@ -363,7 +416,7 @@ div h1 span{
 .f-font{
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #2626ac;
+  color: #000000;
 }
 .fb{
   height: 30px;
@@ -383,7 +436,7 @@ div h1 span{
 }
 .foodter-txt{
   font-size: 17px;
-  color: #2e3a99;
+  color: #000000;
   padding-top: 10px;
 }
 .f-get{
