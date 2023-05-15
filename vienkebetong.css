@@ -21,7 +21,7 @@
     height: 35px;
 }   
 .a{
-  font-size: 50px;
+  font-size: 45px;
   font-family: system-ui;
   font-weight: 800;
 }
@@ -297,17 +297,16 @@ div h1 span{
 }
 .think{
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
 }
 .pngthink{
-  height: 300px;
+  height: 450px;
   object-fit: cover;
   border-radius: 15px;
 }
 .pnthink{
-  height: 617px;
+  height: 200px;
   object-fit: cover;
   border-radius: 15px;
 }
@@ -318,15 +317,37 @@ div h1 span{
 .h2{
   background: #e2f3f3;
   border-radius: 15px;
-  width: 375px;
+  width: 780px;
   padding: 10px;
   font-family: arial;
+}
+.h3{
+  background: #e2f3f3;
+  border-radius: 15px;
+  width: 300px;
+  height: 111px;
+  padding: 10px;
+  font-family: arial;
+  font-size: 15px;
+}
+.span-think1{
+  font-size: 13px;
+  font-weight: 100;
 }
 
 .fflo{
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-evenly;
+}
+.fflo-1{
+  display: flex;
+  flex-direction: column;
+}
+.flo-1{
+  display: flex;
+  padding-bottom: 10px;
+  align-items: center;
 }
 
 /* --------------- */
