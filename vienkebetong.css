@@ -62,9 +62,10 @@ div h1 span{
 }
 /* ----------------------------------------------------------------------------------- */
 #menu ul {
-    background: #ea8c00;
-    list-style-type: none;
-    text-align: center;
+  background: #ea8c00;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
   }
   #menu li {
     color: #f1f1f1;
@@ -208,7 +209,7 @@ div h1 span{
   font-family: arial;
   color: #000000;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 18px;
   border-radius: 8px;
 }
 .text-ii{
@@ -221,7 +222,7 @@ div h1 span{
   font-family: arial;
   color: #000000;
   font-weight: 400;
-  font-size: 27px;
+  font-size: 18px;
   border-radius: 8px;
 }
 .text-iii{
@@ -234,7 +235,7 @@ div h1 span{
   font-family: arial;
   color: #000000;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 17px;
   border-radius: 8px;
 }
 .text-iiii{
@@ -248,7 +249,7 @@ div h1 span{
   color: #000000;
   font-weight: 400;
   border-radius: 8px;
-  font-size: 23px;
+  font-size: 17px;
 }
 .text-iiiii{
   position: absolute;
@@ -260,7 +261,7 @@ div h1 span{
   font-family: arial;
   color: #000000;
   font-weight: 400;
-  font-size: 23px;
+  font-size: 17px;
   border-radius: 8px;
 }
 
@@ -312,7 +313,7 @@ div h1 span{
 }
 .content{
   display: grid;
-  grid-gap: 30px 60px;
+  grid-gap: 50px 0px;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
 }
@@ -339,8 +340,9 @@ div h1 span{
   border-radius: 15px;
 }
 .span-think{
-  font-size: large;
+  font-size: 16px;
   font-weight: 100;
+  line-height: 23px;
 }
 .h2{
   background: #e2f3f3;
@@ -353,14 +355,15 @@ div h1 span{
   background: #e2f3f3;
   border-radius: 15px;
   width: 300px;
-  height: 111px;
+  height: 158px;
   padding: 10px;
   font-family: arial;
   font-size: 15px;
 }
 .span-think1{
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 100;
+  line-height: 23px;
 }
 
 .fflo{
@@ -378,7 +381,10 @@ div h1 span{
   align-items: center;
 }
 
-
+.project{
+      padding-top: 20px;
+    padding-bottom: 20px;
+}
 .duan{
   height: 200px;
   width: 300px;
@@ -388,15 +394,18 @@ div h1 span{
   font-size: 17px;
   font-weight: 600;
   font-family: arial;
+  TEXT-ALIGN: center;   
 }
 .duan-sp{
   font-family: arial;
   font-size: 15px;
+  line-height: 20px;
 }
 .fex-duan1{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 .fex-duan{
   display: flex;
@@ -411,7 +420,8 @@ div h1 span{
   justify-content: space-around;
   align-items: start;
   background-image: url(./Image/banner.png);
-
+  height: 311px;
+  padding-top: 30px;
 }
 .f-font{
   font-size: 30px;
@@ -424,7 +434,7 @@ div h1 span{
 .fb-txt{
   font-size: 17px;
   display: flex;
-  padding-top: 8px;
+  padding-top: 25px;
   align-items: center;
 }
 .fbb{
@@ -437,7 +447,7 @@ div h1 span{
 .foodter-txt{
   font-size: 17px;
   color: #000000;
-  padding-top: 10px;
+  padding-top: 22px;
 }
 .f-get{
   display: flex;
